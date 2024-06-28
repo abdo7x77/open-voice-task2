@@ -50,7 +50,7 @@ export default function Content() {
                     <a href="#service">service</a>
                     <a href="#about">about</a>
                     <a href="#doctors">doctors</a>
-                    <a href="#book">book</a>
+                    <a href="#book">contact us</a>
                     <a href="#review">review</a>
                     <a href="#blogs">blogs</a>
                 </nav>
@@ -64,7 +64,7 @@ export default function Content() {
                 <div className="content">
                     <h3>stay safe, stay healthy</h3>
                     <p>We are a leading healthcare provider with a dedicated team of professionals committed to offering the best medical care.</p>
-                    <a href="#" className="btn">contact us <span className="fas fa-chevron-right"></span></a>
+                    <a href="#book" className="btn">contact us <span className="fas fa-chevron-right"></span></a>
                 </div>
             </section>
 
@@ -220,18 +220,18 @@ export default function Content() {
       </section>
 
       <section className="book" id="book">
-        <h1 className="heading"><span>book</span> now</h1>
+        <h1 className="heading"><span>contact</span> us</h1>
         <div className="row">
           <div className="image">
           <img src={book} alt="book 4" />
           </div>
           <form>
-            <h3>book appointment</h3>
+            <h3>contact us</h3>
             <input type="text" placeholder="your name" className="box" />
             <input type="number" placeholder="your number" className="box" />
             <input type="email" placeholder="your email" className="box" />
             <input type="date" className="box" />
-            <input type="submit" value="book now" className="btn" />
+            <input type="submit" value="go now" className="btn" />
           </form>
         </div>
       </section>
