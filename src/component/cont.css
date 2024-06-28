@@ -1,26 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
-/* src/components/Home.css */
-.scrollable-section {
-  max-height: 500px; /* ضبط الارتفاع حسب الحاجة */
-  overflow-y: auto;
+ 
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, #16a085, #16a085, black);
 }
 
-.scrollable-section::-webkit-scrollbar {
-  width: 8px;
+
+::-webkit-scrollbar-track{
+    background-image: linear-gradient( to bottom, black,black,black);
 }
 
-.scrollable-section::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
 
-.scrollable-section::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 10px;
-}
-
-.scrollable-section::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
 
 :root
 {
